@@ -45,7 +45,7 @@ background-color: black;
 }
 button{
     background-color: crimson;
-    padding: 10px 10px                              ;
+    padding:  10px                              ;
     
     color: white;
     width: 100px;
@@ -54,10 +54,12 @@ button{
 }
 
 .main-container{
-    width: 50%;
-    margin: auto;
+    width: 80%;
+    position: center;
     margin-top: 3rem;
     margin-bottom: 3rem;
+    margin-left: 1cm;
+    margin-right: 1cm;
 }
 .main-container h1 {
 text-align: center;
@@ -84,8 +86,8 @@ margin-bottom: 2rem;
 }
 
 .main section {
-width: 100%;
-}
+/* width: 100vh;
+} */
 
 .text-container h2 {
     margin-bottom: 1.5rem;
@@ -121,6 +123,7 @@ width: 100%;
 .mortgage{
     background-color:black;
     color: white;
+    background-size: 60%;
 }
 .mortgage-input{
     display: flex;
